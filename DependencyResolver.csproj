@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>DependencyResolver</Title>
+    <Authors>MuhammadSufyanMaik</Authors>
+    <Company>MalikSoft</Company>
+    <Description>DependencyResolver: Includes CoreModule</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CrossCuttingConcerns" Version="1.0.0" />
+    <PackageReference Include="IoC" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+</Project>
